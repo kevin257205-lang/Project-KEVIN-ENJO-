@@ -1,4 +1,3 @@
-'''
 print("hello world\n")
 if 5>2:
     print("five is greater than 2\n")
@@ -432,8 +431,9 @@ print(s)
 data={"math":90,"science":85,"english":78}
 s=pd.Series(data)
 print(s)
-'''
+
 import pandas as pd
 df=pd.read_csv("crocodile_dataset.csv")
 print(df.head())
+
 print(df.tail)
